@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "kg-navbar-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/kgNavbar/KgNavbarApplicationCustomizer.js",
+          "manifest": "./src/extensions/kgNavbar/KgNavbarApplicationCustomizer.manifest.json"
+        }
+      ]
+    },
+    "hero-search-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/heroSearch/HeroSearchWebPart.js",
+          "manifest": "./src/webparts/heroSearch/HeroSearchWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "KgNavbarApplicationCustomizerStrings": "lib/extensions/kgNavbar/loc/{locale}.js",
+    "HeroSearchWebPartStrings": "lib/webparts/heroSearch/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

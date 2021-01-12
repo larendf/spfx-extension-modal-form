@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="KgNavbar"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="3c8f1e6b-ead6-418d-a32a-b3c0663b0518"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

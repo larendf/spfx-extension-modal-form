@@ -1,0 +1,59 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.navigationStyles{
+  width: -webkit-calc(100% - 250px);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  .navigationBar{
+    border: 0px solid #c6c6c6;
+    height: 70px;
+
+
+    .navMenu {
+      margin-top: 35px;
+
+      .navlinksContainer
+      {
+        display: table-cell;
+        vertical-align: top;
+        float: left;
+
+        .navLinksDiv{
+          display: inline-block;
+          vertical-align: top;
+          padding-right: 15px;
+
+          .navLink{
+
+            text-decoration: none;
+          }
+
+          .navLink:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+
+      .navIconsContainer
+      {
+        display: table-cell;
+        vertical-align: top;
+        float: right;
+
+        .navIconsDiv{
+          display: inline-block;
+          vertical-align: top;
+          padding-right: 15px;
+        }
+      }
+
+      .rightAlign
+      {
+        float: right;
+      }
+    }
+  }
+}
